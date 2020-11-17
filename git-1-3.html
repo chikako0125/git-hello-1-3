@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>task</title>
+
+<body>
+    <script>
+
+
+
+
+        var tasks = ["掃除", "買い物", "散歩"];
+
+        console.log("=============");
+        console.log("現在持っているタスク一覧");
+        console.log("=============");
+
+        for (var i = 0; i < tasks.length; i++) {
+            console.log(`${i}: ${tasks[i]}`)
+        }
+
+
+
+        var type = prompt("タスクを入力してください");
+
+        alert("新しいタスクを追加しました");
+
+        tasks.push(type);
+
+        console.log("=============");
+        console.log("現在持っているタスク一覧");
+        console.log("=============");
+
+        for (var i = 0; i < tasks.length; i++) {
+            console.log(`${i}: ${tasks[i]}`)
+        }
+
+
+    </script>
+</body>
+
+</html>
